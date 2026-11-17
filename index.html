@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity Web Player | My project</title>
+    <title>Unity Web Player | Horde Defense</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -24,7 +24,7 @@
       <div id="unity-footer">
         <div id="unity-logo-title-footer"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">My project</div>
+        <div id="unity-build-title">Horde Defense</div>
       </div>
     </div>
     <script>
@@ -60,9 +60,9 @@
       var loaderUrl = buildUrl + "/Web.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/Web.data.br",
-        frameworkUrl: buildUrl + "/Web.framework.js.br",
-        codeUrl: buildUrl + "/Web.wasm.br",
+        dataUrl: buildUrl + "/Web.data.unityweb",
+        frameworkUrl: buildUrl + "/Web.framework.js.unityweb",
+        codeUrl: buildUrl + "/Web.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
 
         // If you have a custom web site structure, or want to place multiple Unity build instances on the same page,
@@ -71,7 +71,7 @@
         fullscreenElementID: "unity-fullscreen-container",
 
         companyName: "DefaultCompany",
-        productName: "My project",
+        productName: "Horde Defense",
         productVersion: "1.0",
         showBanner: unityShowBanner,
         // errorHandler: function(err, url, line) {
